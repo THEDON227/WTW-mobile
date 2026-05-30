@@ -1,29 +1,13 @@
-import type { CityTheme } from './index';
-
+import type { CityTheme } from './types';
 export const phillyTheme: CityTheme = {
-  city: 'Philadelphia',
-  cityCode: 'phl',
-  background: '#00080a',
-  primary: '#06B6D4',
-  primaryMuted: 'rgba(6,182,212,0.18)',
-  primaryGlow: 'rgba(6,182,212,0.45)',
-  surface: 'rgba(6,182,212,0.06)',
-  surfaceElevated: 'rgba(6,182,212,0.11)',
-  text: {
-    primary: '#CFFAFE',
-    secondary: 'rgba(207,250,254,0.65)',
-    tertiary: 'rgba(207,250,254,0.35)',
-    inverse: '#00080a',
-    accent: '#06B6D4',
-  },
-  hero: {
-    gradient: ['#00080a', '#001418', '#001c22'],
-    overlayStart: 'rgba(0,8,10,0.00)',
-    overlayEnd: 'rgba(0,8,10,0.92)',
-  },
-  tagline: 'The city that invented the underground.',
-  vibeWords: ['Raw', 'Authentic', 'Jazz', 'After Hours', 'Industrial'],
-  filterTabs: ['ALL', 'VIP TABLES', 'ROOFTOPS', 'LIVE MUSIC', 'AFTER HOURS'],
-  waveColor: '#06B6D4',
-  momentumColor: '#67E8F9',
+  city: 'Philadelphia', cityCode: 'phl',
+  background: '#0A0606', primary: '#F87171',
+  primaryMuted: '#F8717133', primaryGlow: '#F8717166',
+  surface: '#150C0C', surfaceElevated: '#1E1212',
+  text: { primary: '#F0EDE8', secondary: '#A09A8E', tertiary: '#5C5650', inverse: '#0A0606', accent: '#F87171' },
+  hero: { gradient: ['#0A0606', '#150A0A', '#0A0606'], overlayStart: 'rgba(10,6,6,0)', overlayEnd: 'rgba(10,6,6,0.95)' },
+  tagline: 'The city of brotherly love — after dark',
+  vibeWords: ['Broad Street', 'Philly Raw', 'City of Grit'],
+  filterTabs: ['All', 'R&B', 'Hip-Hop', 'Rooftop', 'Underground'],
+  waveColor: '#F87171', momentumColor: '#34D399',
 };

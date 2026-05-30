@@ -1,12 +1,7 @@
 import { create } from 'zustand';
-import type { CityCode } from '../design-system/themes';
+import type { CityCode } from '../design-system/themes/types';
 
-export type Aura =
-  | 'all'
-  | 'vip'
-  | 'rooftop'
-  | 'live-music'
-  | 'after-hours';
+export type Aura = 'all' | 'vip' | 'rooftop' | 'live-music' | 'after-hours';
 
 interface CityState {
   selectedCity: CityCode;

@@ -1,29 +1,13 @@
-import type { CityTheme } from './index';
-
+import type { CityTheme } from './types';
 export const njTheme: CityTheme = {
-  city: 'New Jersey',
-  cityCode: 'nj',
-  background: '#00060f',
-  primary: '#0EA5E9',
-  primaryMuted: 'rgba(14,165,233,0.18)',
-  primaryGlow: 'rgba(14,165,233,0.45)',
-  surface: 'rgba(14,165,233,0.06)',
-  surfaceElevated: 'rgba(14,165,233,0.11)',
-  text: {
-    primary: '#E0F2FE',
-    secondary: 'rgba(224,242,254,0.65)',
-    tertiary: 'rgba(224,242,254,0.35)',
-    inverse: '#00060f',
-    accent: '#0EA5E9',
-  },
-  hero: {
-    gradient: ['#00060f', '#000e1f', '#00152e'],
-    overlayStart: 'rgba(0,6,15,0.00)',
-    overlayEnd: 'rgba(0,6,15,0.92)',
-  },
-  tagline: 'Skyline views. No tourist tax.',
-  vibeWords: ['Waterfront', 'Skyline', 'Late Night', 'Lounge', 'Upscale'],
-  filterTabs: ['ALL', 'VIP TABLES', 'ROOFTOPS', 'LIVE MUSIC', 'AFTER HOURS'],
-  waveColor: '#0EA5E9',
-  momentumColor: '#7DD3FC',
+  city: 'New Jersey', cityCode: 'nj',
+  background: '#08080F', primary: '#60A5FA',
+  primaryMuted: '#60A5FA33', primaryGlow: '#60A5FA66',
+  surface: '#10101A', surfaceElevated: '#181826',
+  text: { primary: '#F0EDE8', secondary: '#A09A8E', tertiary: '#5C5650', inverse: '#08080F', accent: '#60A5FA' },
+  hero: { gradient: ['#08080F', '#10101A', '#08080F'], overlayStart: 'rgba(8,8,15,0)', overlayEnd: 'rgba(8,8,15,0.95)' },
+  tagline: 'The real Garden State after dark',
+  vibeWords: ['Shore Nights', 'Urban Energy', 'Tri-State Vibes'],
+  filterTabs: ['All', 'Club', 'Lounge', 'Shore', 'Late Night'],
+  waveColor: '#60A5FA', momentumColor: '#F472B6',
 };

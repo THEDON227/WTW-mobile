@@ -1,29 +1,13 @@
-import type { CityTheme } from './index';
-
+import type { CityTheme } from './types';
 export const miamiTheme: CityTheme = {
-  city: 'Miami',
-  cityCode: 'miami',
-  background: '#0a0008',
-  primary: '#E91E8C',
-  primaryMuted: 'rgba(233,30,140,0.20)',
-  primaryGlow: 'rgba(233,30,140,0.50)',
-  surface: 'rgba(233,30,140,0.06)',
-  surfaceElevated: 'rgba(233,30,140,0.12)',
-  text: {
-    primary: '#FDE8F3',
-    secondary: 'rgba(253,232,243,0.65)',
-    tertiary: 'rgba(253,232,243,0.35)',
-    inverse: '#0a0008',
-    accent: '#E91E8C',
-  },
-  hero: {
-    gradient: ['#0a0008', '#1a0012', '#2d0020'],
-    overlayStart: 'rgba(10,0,8,0.00)',
-    overlayEnd: 'rgba(10,0,8,0.92)',
-  },
-  tagline: "The heat doesn't stop at midnight.",
-  vibeWords: ['Poolside', 'Neon', 'Latin', 'Rooftop', 'Bottle Service'],
-  filterTabs: ['ALL', 'VIP TABLES', 'ROOFTOPS', 'LIVE MUSIC', 'AFTER HOURS'],
-  waveColor: '#E91E8C',
-  momentumColor: '#F9A8D4',
+  city: 'Miami', cityCode: 'miami',
+  background: '#060B14', primary: '#FF6B9D',
+  primaryMuted: '#FF6B9D33', primaryGlow: '#FF6B9D66',
+  surface: '#0D1520', surfaceElevated: '#141E2E',
+  text: { primary: '#F0EDE8', secondary: '#A09A8E', tertiary: '#5C5650', inverse: '#060B14', accent: '#FF6B9D' },
+  hero: { gradient: ['#060B14', '#0D1A2A', '#060B14'], overlayStart: 'rgba(6,11,20,0)', overlayEnd: 'rgba(6,11,20,0.95)' },
+  tagline: 'Where the night never ends',
+  vibeWords: ['South Beach Heat', 'Pool Party', 'Rooftop Vibes'],
+  filterTabs: ['All', 'Beach Club', 'Pool Party', 'Live DJ', 'Late Night'],
+  waveColor: '#FF6B9D', momentumColor: '#00D4FF',
 };

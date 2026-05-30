@@ -1,29 +1,13 @@
-import type { CityTheme } from './index';
-
+import type { CityTheme } from './types';
 export const chicagoTheme: CityTheme = {
-  city: 'Chicago',
-  cityCode: 'chi',
-  background: '#04060f',
-  primary: '#6366F1',
-  primaryMuted: 'rgba(99,102,241,0.20)',
-  primaryGlow: 'rgba(99,102,241,0.48)',
-  surface: 'rgba(99,102,241,0.07)',
-  surfaceElevated: 'rgba(99,102,241,0.13)',
-  text: {
-    primary: '#EEF2FF',
-    secondary: 'rgba(238,242,255,0.65)',
-    tertiary: 'rgba(238,242,255,0.35)',
-    inverse: '#04060f',
-    accent: '#6366F1',
-  },
-  hero: {
-    gradient: ['#04060f', '#07091c', '#0a0c28'],
-    overlayStart: 'rgba(4,6,15,0.00)',
-    overlayEnd: 'rgba(4,6,15,0.92)',
-  },
-  tagline: 'Chi-town hits different after midnight.',
-  vibeWords: ['House', 'Deep', 'Architecture', 'Lakefront', 'Underground'],
-  filterTabs: ['ALL', 'VIP TABLES', 'ROOFTOPS', 'LIVE MUSIC', 'AFTER HOURS'],
-  waveColor: '#6366F1',
-  momentumColor: '#A5B4FC',
+  city: 'Chicago', cityCode: 'chi',
+  background: '#050A14', primary: '#38BDF8',
+  primaryMuted: '#38BDF833', primaryGlow: '#38BDF866',
+  surface: '#0A1220', surfaceElevated: '#101A2E',
+  text: { primary: '#F0EDE8', secondary: '#A09A8E', tertiary: '#5C5650', inverse: '#050A14', accent: '#38BDF8' },
+  hero: { gradient: ['#050A14', '#0A1220', '#050A14'], overlayStart: 'rgba(5,10,20,0)', overlayEnd: 'rgba(5,10,20,0.95)' },
+  tagline: 'The Windy City never stops',
+  vibeWords: ['Chi-Town Energy', 'House Music', 'Lake Shore'],
+  filterTabs: ['All', 'House', 'R&B', 'Rooftop', 'Late Night'],
+  waveColor: '#38BDF8', momentumColor: '#FB7185',
 };

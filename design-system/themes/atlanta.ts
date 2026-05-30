@@ -1,29 +1,13 @@
-import type { CityTheme } from './index';
-
+import type { CityTheme } from './types';
 export const atlantaTheme: CityTheme = {
-  city: 'Atlanta',
-  cityCode: 'atl',
-  background: '#0a0000',
-  primary: '#C41E3A',
-  primaryMuted: 'rgba(196,30,58,0.20)',
-  primaryGlow: 'rgba(196,30,58,0.48)',
-  surface: 'rgba(196,30,58,0.07)',
-  surfaceElevated: 'rgba(196,30,58,0.13)',
-  text: {
-    primary: '#FFE4E8',
-    secondary: 'rgba(255,228,232,0.65)',
-    tertiary: 'rgba(255,228,232,0.35)',
-    inverse: '#0a0000',
-    accent: '#C41E3A',
-  },
-  hero: {
-    gradient: ['#0a0000', '#1a0004', '#280008'],
-    overlayStart: 'rgba(10,0,0,0.00)',
-    overlayEnd: 'rgba(10,0,0,0.92)',
-  },
-  tagline: "ATL doesn't sleep — it switches sets.",
-  vibeWords: ['Trap', 'Lounge', 'Hip-Hop', 'Exclusive', 'Rooftop'],
-  filterTabs: ['ALL', 'VIP TABLES', 'ROOFTOPS', 'LIVE MUSIC', 'AFTER HOURS'],
-  waveColor: '#C41E3A',
-  momentumColor: '#FCA5A5',
+  city: 'Atlanta', cityCode: 'atl',
+  background: '#080A08', primary: '#4ADE80',
+  primaryMuted: '#4ADE8033', primaryGlow: '#4ADE8066',
+  surface: '#0F120F', surfaceElevated: '#161A16',
+  text: { primary: '#F0EDE8', secondary: '#A09A8E', tertiary: '#5C5650', inverse: '#080A08', accent: '#4ADE80' },
+  hero: { gradient: ['#080A08', '#101510', '#080A08'], overlayStart: 'rgba(8,10,8,0)', overlayEnd: 'rgba(8,10,8,0.95)' },
+  tagline: 'ATL — The culture capital',
+  vibeWords: ['Trap Nation', 'Buckhead Scene', 'Culture First'],
+  filterTabs: ['All', 'Hip-Hop', 'Trap', 'Rooftop', 'Industry'],
+  waveColor: '#4ADE80', momentumColor: '#F97316',
 };
